@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-chatbg: #1a1a1a;
+  --color-chatSecondary: #2a2a2a;
+  --color-chatBorder: #3a3a3a;
+  --color-chatInput: #2a2a2a;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--color-chatbg);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-chatbg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-chatBorder);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4a4a4a;
+}
