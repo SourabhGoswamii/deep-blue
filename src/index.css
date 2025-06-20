@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --color-chatbg: #1a1a1a;
-  --color-chatSecondary: #2a2a2a;
-  --color-chatBorder: #3a3a3a;
-  --color-chatInput: #2a2a2a;
+  --color-chatbg: #ffffff;
+  --color-chatSecondary: #f5f5f5;
+  --color-chatBorder: #e0e0e0;
+  --color-chatInput: #f5f5f5;
 }
 
 body {
@@ -30,5 +30,5 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #4a4a4a;
+  background: #c0c0c0;
 }
